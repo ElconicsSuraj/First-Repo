@@ -1,0 +1,86 @@
+objective 
+
+Their objective was to differentiate unhealthy regions from healthy leaves, determine the Cercospora leaf region, leaf rust and powdery mildew, and detect diseases
+ before any particular symptoms were visible.
+
+The IoT based system allows objects to be sensed or controlled remotely across existing network infrastructure, creating opportunities for more direct integration of the physical world into computer-based systems and resulting in improved efficiency,
+ accuracy and economic benefit with the added merits of minimum human ...
+
+
+
+Methodology
+
+
+
+
+
+For agricultural monitoring system:
+Step 1: Start
+Step 2: Entire Project kit placed near the crop field
+Step 3: Sensors senses and gives the accurate measures
+Step 4: Values send to Arduino Uno
+Step 5: All Data sends to the server
+Step 6: Suitable crop and its NPK values on Farmers
+mobile.
+Step 7: Stop
+
+For plant diseases detection using raspberry pi:
+
+In order to develop a model for leaf disease detection, the approach used is deep 
+CNN. 1. DATASET For the purpose of image- based identification which includes, training phase to evaluation phase where the performance of classification algorithms areevaluated,
+ it is necessary to have huge data sets. Subsequently, there is a need to enhance the dataset by adding the images that areaugmented.
+ This paper further train the network to learn features that differentiates one class from other.
+ Correspondingly, adatabase comprising of more than 5000 images are used to train and around 1000 images are further used to validate the same.
+ 2.PROCESS AND LABEL OF IMAGES Several samples of images are collected which are spread across in several formats havingvarying levels of resolutions and hence the variations in quality.
+ Thus, to acquire a reasonable feature extraction, the final imagesare used as input data for classifier which are then pre-processed to achieve consistency.
+ It is further ensured that at the time of datacollection, those of the images whose resolution is smaller and which has a dimension less than 500px is not taken intoconsideration as valid images for the dataset.
+ As such, images having higher resolution form the potential candidates for thisinvestigation purpose.
+ Consequently, images are ascertained to contain all the required information for feature learning.Accordingly, images used for the dataset were image resized to 50 X 50.
+ This ensures that there is a reduction of the time requiredfor training and automatically computes it using written script in Python, using the OpenCV framework.
+ Pre-processing imagesinvolves outsourcing background noise, intensity normalization of individual image particles, removing reflections and masking portions of images.
+ The dataset of the plant leaf, various diseases, pests and soil images are trained in python tool and classified intovarious clusters which classifies various labels.
+ Convolution Neural Networks is designed for accurate analysis. UnsupervisedLearning classification is used since the input image is unknown and new to the algorithm. 
+Most of the real time applications needunsupervised learning data since the input is always unknown to the algorithm. Machine Learning algorithm: Based on the featureextraction parameters, 
+the algorithm predicts whether the crop is going to get any pest and disease attacks in future
+
+
+
+
+REFERENCES
+
+Agarwal, R. and Karahanna, E. Time flies when you're having
+fun:Cognitive absorption and beliefs about information technology
+usage, MIS Quarterly, vol. 24, no. 4, pp. 665-694, 2000.
+2. G.V. Satyanarayana , S D. Mazaruddin, "Wireless Sensor Based
+RemoteMonitoring System for Agriculture using ZigBee and GPS",
+Conference onAdvances in Communication and Control Systems,
+2013.
+3. Fanuhs asefaw aregay and Zhoo minjipum ”Impact of irrigation
+onFertilizer Use Decision of Farmers”, journal of sustainable
+developmentvolume5 number4 april 2012.
+4. Nikes Gondchawar , R. S. Kawitkar, "IOT based Smart
+Agriculture",International Journal of Advanced Research in
+Computer
+Communication Engineering, vol. 5, no. 6, pp. 2278-1021, June 2016.
+[1] Nitrogen fixation’ available at
+https:\\en.wikipedia.org/wiki Nitrogen
+fixation, accessed February 2017
+[2] Savary, s., ficke, A, Aubertort,j-n.,et al crop
+losses sue to disaeses and their implications
+for global food production losses.
+[3] Mian MA. Missaoui, A.M walker D.R .,et al:
+‘frog eye leaf spot of soybean: a review and
+proposed race designations for isolates of
+[4]. G.V. Satyanarayana , S D. Mazaruddin, "Wireless Sensor Based
+RemoteMonitoring System for Agriculture using ZigBee and GPS",
+Conference onAdvances in Communication and Control Systems,
+2013.
+[5]. Fanuhs asefaw aregay and Zhoo minjipum ”Impact of irrigation
+onFertilizer Use Decision of Farmers”, journal of sustainable
+developmentvolume5 number4 april 2012.
+[6]. Nikes Gondchawar , R. S. Kawitkar, "IOT based Smart
+Agriculture",International Journal of Advanced Research in
+Computer
+[7]Agarwal, R. and Karahanna, E. Time flies when you're having
+fun:Cognitive absorption and beliefs about information technology
+usage, MIS Quarterly, vol. 24, no. 4, pp. 665-694, 2000.
